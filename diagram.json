@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "author": "Vy Tran",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 96.6, "left": 18.6, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -76.5, "left": -82.2, "attrs": {} },
+    { "type": "wokwi-lcd1602", "id": "lcd1", "top": -121.37, "left": 16, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 3.95,
+      "left": 230.4,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    [ "dht1:VCC", "uno:5V", "red", [ "v307.2", "h240" ] ],
+    [ "dht1:GND", "uno:GND.1", "black", [ "v0", "h172.8" ] ],
+    [ "dht1:SDA", "uno:2", "cyan", [ "v316.8", "h374.5", "v-316.8", "h-57.6" ] ],
+    [ "uno:GND.1", "lcd1:K", "black", [ "v-76.8", "h57.9" ] ],
+    [ "uno:GND.1", "lcd1:VSS", "black", [ "v-76.8", "h-86.1" ] ],
+    [ "lcd1:A", "r1:1", "violet", [ "v0" ] ],
+    [ "uno:5V", "r1:2", "red", [ "v47.9", "h147.8", "v-326.4" ] ],
+    [ "uno:5V", "lcd1:VDD", "red", [ "v38.3", "h-169" ] ],
+    [ "uno:GND.1", "lcd1:RW", "black", [ "v-76.8", "h-47.7" ] ],
+    [ "uno:12", "lcd1:RS", "blue", [ "v-19.2", "h-76.3", "v-76.8" ] ],
+    [ "uno:11", "lcd1:E", "purple", [ "v-28.8", "h-66.6" ] ],
+    [ "uno:10", "lcd1:D4", "green", [ "v-38.4", "h-28.1" ] ],
+    [ "uno:9", "lcd1:D5", "#8f4814", [ "v-48", "h-28.1" ] ],
+    [ "uno:8", "lcd1:D6", "gold", [ "v-57.6", "h-28.6" ] ],
+    [ "uno:7", "lcd1:D7", "gray", [ "v-67.2", "h-34.8", "v-28.8" ] ]
+  ],
+  "dependencies": {}
+}

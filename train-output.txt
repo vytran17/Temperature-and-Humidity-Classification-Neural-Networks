@@ -1,0 +1,110 @@
+(tensorflow_env) ~/Downloads/IoT/hw2$ python train.py
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+2023-11-01 18:31:38.117676: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/50
+80/80 [==============================] - 0s 541us/step - loss: 0.6966 - accuracy: 0.5138
+Epoch 2/50
+80/80 [==============================] - 0s 478us/step - loss: 0.6931 - accuracy: 0.5213
+Epoch 3/50
+80/80 [==============================] - 0s 484us/step - loss: 0.6949 - accuracy: 0.5075
+Epoch 4/50
+80/80 [==============================] - 0s 480us/step - loss: 0.6928 - accuracy: 0.5325
+Epoch 5/50
+80/80 [==============================] - 0s 480us/step - loss: 0.6916 - accuracy: 0.5337
+Epoch 6/50
+80/80 [==============================] - 0s 476us/step - loss: 0.6919 - accuracy: 0.5288
+Epoch 7/50
+80/80 [==============================] - 0s 474us/step - loss: 0.6922 - accuracy: 0.5225
+Epoch 8/50
+80/80 [==============================] - 0s 475us/step - loss: 0.6920 - accuracy: 0.5263
+Epoch 9/50
+80/80 [==============================] - 0s 475us/step - loss: 0.6921 - accuracy: 0.5138
+Epoch 10/50
+80/80 [==============================] - 0s 487us/step - loss: 0.6913 - accuracy: 0.5288
+Epoch 11/50
+80/80 [==============================] - 0s 471us/step - loss: 0.6921 - accuracy: 0.5188
+Epoch 12/50
+80/80 [==============================] - 0s 473us/step - loss: 0.6912 - accuracy: 0.5412
+Epoch 13/50
+80/80 [==============================] - 0s 479us/step - loss: 0.6904 - accuracy: 0.5275
+Epoch 14/50
+80/80 [==============================] - 0s 477us/step - loss: 0.6909 - accuracy: 0.5263
+Epoch 15/50
+80/80 [==============================] - 0s 479us/step - loss: 0.6902 - accuracy: 0.5387
+Epoch 16/50
+80/80 [==============================] - 0s 475us/step - loss: 0.6910 - accuracy: 0.5375
+Epoch 17/50
+80/80 [==============================] - 0s 477us/step - loss: 0.6908 - accuracy: 0.5362
+Epoch 18/50
+80/80 [==============================] - 0s 473us/step - loss: 0.6892 - accuracy: 0.5437
+Epoch 19/50
+80/80 [==============================] - 0s 476us/step - loss: 0.6909 - accuracy: 0.5337
+Epoch 20/50
+80/80 [==============================] - 0s 473us/step - loss: 0.6917 - accuracy: 0.5537
+Epoch 21/50
+80/80 [==============================] - 0s 478us/step - loss: 0.6906 - accuracy: 0.5350
+Epoch 22/50
+80/80 [==============================] - 0s 475us/step - loss: 0.6903 - accuracy: 0.5425
+Epoch 23/50
+80/80 [==============================] - 0s 476us/step - loss: 0.6901 - accuracy: 0.5312
+Epoch 24/50
+80/80 [==============================] - 0s 471us/step - loss: 0.6902 - accuracy: 0.5400
+Epoch 25/50
+80/80 [==============================] - 0s 474us/step - loss: 0.6904 - accuracy: 0.5400
+Epoch 26/50
+80/80 [==============================] - 0s 476us/step - loss: 0.6899 - accuracy: 0.5437
+Epoch 27/50
+80/80 [==============================] - 0s 475us/step - loss: 0.6904 - accuracy: 0.5312
+Epoch 28/50
+80/80 [==============================] - 0s 474us/step - loss: 0.6901 - accuracy: 0.5362
+Epoch 29/50
+80/80 [==============================] - 0s 475us/step - loss: 0.6896 - accuracy: 0.5412
+Epoch 30/50
+80/80 [==============================] - 0s 473us/step - loss: 0.6914 - accuracy: 0.5337
+Epoch 31/50
+80/80 [==============================] - 0s 475us/step - loss: 0.6897 - accuracy: 0.5337
+Epoch 32/50
+80/80 [==============================] - 0s 476us/step - loss: 0.6904 - accuracy: 0.5362
+Epoch 33/50
+80/80 [==============================] - 0s 475us/step - loss: 0.6895 - accuracy: 0.5425
+Epoch 34/50
+80/80 [==============================] - 0s 476us/step - loss: 0.6887 - accuracy: 0.5450
+Epoch 35/50
+80/80 [==============================] - 0s 477us/step - loss: 0.6902 - accuracy: 0.5525
+Epoch 36/50
+80/80 [==============================] - 0s 471us/step - loss: 0.6901 - accuracy: 0.5512
+Epoch 37/50
+80/80 [==============================] - 0s 479us/step - loss: 0.6901 - accuracy: 0.5412
+Epoch 38/50
+80/80 [==============================] - 0s 472us/step - loss: 0.6889 - accuracy: 0.5425
+Epoch 39/50
+80/80 [==============================] - 0s 474us/step - loss: 0.6888 - accuracy: 0.5450
+Epoch 40/50
+80/80 [==============================] - 0s 473us/step - loss: 0.6888 - accuracy: 0.5537
+Epoch 41/50
+80/80 [==============================] - 0s 473us/step - loss: 0.6900 - accuracy: 0.5500
+Epoch 42/50
+80/80 [==============================] - 0s 471us/step - loss: 0.6895 - accuracy: 0.5425
+Epoch 43/50
+80/80 [==============================] - 0s 472us/step - loss: 0.6889 - accuracy: 0.5487
+Epoch 44/50
+80/80 [==============================] - 0s 473us/step - loss: 0.6892 - accuracy: 0.5475
+Epoch 45/50
+80/80 [==============================] - 0s 474us/step - loss: 0.6891 - accuracy: 0.5550
+Epoch 46/50
+80/80 [==============================] - 0s 469us/step - loss: 0.6892 - accuracy: 0.5412
+Epoch 47/50
+80/80 [==============================] - 0s 470us/step - loss: 0.6891 - accuracy: 0.5462
+Epoch 48/50
+80/80 [==============================] - 0s 473us/step - loss: 0.6897 - accuracy: 0.5462
+Epoch 49/50
+80/80 [==============================] - 0s 472us/step - loss: 0.6897 - accuracy: 0.5400
+Epoch 50/50
+80/80 [==============================] - 0s 473us/step - loss: 0.6883 - accuracy: 0.5387
+7/7 [==============================] - 0s 444us/step
+Model Training Accuracy: 0.5387
+Model Test Accuracy: 0.4400
+Accuracy Score: 0.4400
+
