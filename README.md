@@ -24,7 +24,7 @@ This repository hosts the Python and Arduino code for a project that involves cr
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/temperature-humidity-classification.git
+   git clone https://github.com/vytran17/Temperature-and-Humidity-Classification-Neural-Networks
 2. Install required Python packages:
    ```sh
    pip install tensorflow pandas numpy scikit-learn
